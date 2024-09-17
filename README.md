@@ -1,6 +1,6 @@
 # Mental Health Chatbot
 
-[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/kernels/welcome)
+[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/prayashdash/falcon7b-finetune-mental-health)
 [![Finetuned Model](https://img.shields.io/badge/Hugging%20Face-Models-orange?logo=huggingface)](https://huggingface.co/greenmantis/falcon-7b-sharded-bf16-finetuned-mental-health-conv)
 
 ## Finetuning of Falcon-7B LLM with QLoRA and bitsandbytes on Mental Health.
@@ -19,7 +19,7 @@ The dataset contrains 172 question-answer conversation between a patient and a h
 
 The notebook used for finetuning can be accesed at:
 
-[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/kernels/welcome)
+[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/prayashdash/falcon7b-finetune-mental-health)
 
 
 I have used sharded Falcon-7B pre-trained model and finetuned it using bitsandbytes and QLoRA utilising quantisation and PEFT techniques. Using a shared model with Accelerate allows efficient fine-tuning of large models by dynamically managing memory across CPU and GPU, enabling the process in smaller memory environments.
