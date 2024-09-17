@@ -3,6 +3,10 @@
 [![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/prayashdash/falcon7b-finetune-mental-health)
 [![Finetuned Model](https://img.shields.io/badge/Hugging%20Face-Models-orange?logo=huggingface)](https://huggingface.co/greenmantis/falcon-7b-sharded-bf16-finetuned-mental-health-conv)
 
+
+<img src="images\question2.png" height=500>
+
+
 ## Finetuning of Falcon-7B LLM with QLoRA and bitsandbytes on Mental Health.
 
 ### Introduction:
@@ -90,3 +94,21 @@ PEFT fine-tuned model has been updated here:
 <br>
 
 The model takes less than 3 minutes to generate the response. I have compared the PEFT model response with the original model response in `falcon7b-finetune-mental-health.ipynb` notebook. It is clear that the Original model seems to halucinate and generate vague responses, whereas the PEFT model generates more coherent and relevant responses to the questions.
+
+
+## Chatbot Interface:
+
+I have demonstarted the chatbot capabilities of the models in `gradio-chatbot-app.ipynb` notebook using Gradio as frontend for demo. You can run the notebook to get a chatbot like interface which allows you to input a query and get the response from the model. You can play around with different hyperparameter settings and check the quality of the generated response.
+
+.\
+.
+</br>
+
+Some coversations with the chatbot are shown below:
+<details close>
+<summary>Click to expand</summary>
+<img src="images\question1.png" height=450>
+<img src="images\question2.png" height=450>
+</details>
+
+---
